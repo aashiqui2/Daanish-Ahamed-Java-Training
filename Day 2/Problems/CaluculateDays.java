@@ -1,3 +1,4 @@
+package Problems;
 import java.util.Scanner;
 public class CaluculateDays {
     public static void main(String[] args) {
