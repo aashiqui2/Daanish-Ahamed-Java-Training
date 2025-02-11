@@ -7,6 +7,9 @@ public class College {
         display();
         College clg=new College();
         clg.studying();
+        clg.recruit();
+        clg.write();
+        clg.semesterpaper();
     }
     static void display()
     {
@@ -16,12 +19,18 @@ public class College {
     {
         System.out.println("students are stydying");
     }
-    void recruit()
+    public void recruit()
     {
         System.out.println("company is recruiting");
     }
-    void write()
+    protected void write()
     {
         System.out.println("exam are going on");
+    
+    }
+
+    private void semesterpaper()
+    {
+        System.out.println("this is top secret");
     }
 }

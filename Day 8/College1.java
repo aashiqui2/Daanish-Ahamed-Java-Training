@@ -8,6 +8,9 @@ public class College1 {
 
         College clg=new College();
         clg.studying();
+        clg.recruit();
+        clg.write();
+        clg.semesterpaper();
     }
     void display()
     {
