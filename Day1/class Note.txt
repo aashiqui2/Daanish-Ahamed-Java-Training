@@ -1,0 +1,6 @@
+04/02/2025
+1.Whenever the class is public , the class name and filename should be same
+2.In a java file, there must be only a Public Class
+
+05/02/2025
+If statement.
