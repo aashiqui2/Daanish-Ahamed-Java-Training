@@ -1,0 +1,6 @@
+object is a real=trime entity
+object is combination of states and behaviors
+object is an instannce of class 
+object is a memory reference of a class
+object occupy space
+object should reside inside class

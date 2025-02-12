@@ -1,0 +1,6 @@
+Array
+
+1.array is the colllection of similar data type.
+2.array can be accesd by indexes.
+3.array is an object.
+4.we can able to create arrays in two ways.

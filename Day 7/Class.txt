@@ -1,0 +1,10 @@
+Class is a physical entity.
+class is a template or a blueprint
+class is a container.
+class doesn't occupy space.
+class is a collection of object.
+class defines the variable and methods common to all objects of a certain kind.
+
+
+#Example:
+*Laptop -monitor,keyboard,mousepad,charger.

@@ -1,12 +1,13 @@
-public class StringDemo6 {
+public class Stringdemo6 {
     public static void main(String[] args) {
-        String s1="     hello world   ";
-        System.out.println(s1);
-       
-        System.out.println( s1.trim());
-        //? remove spaces from start and end
+        String s="hello";
+        StringBuilder sb = new StringBuilder(s);
 
-        String s2="abc";
-        System.out.println(s2.repeat(3));//abcabcabc
+        sb.append("world");
+        s=sb.toString();
+        System.out.println(s);
+        StringBuilder sb1=new StringBuilder("cat");
+        sb1.reverse();
+        System.out.println(sb1);
     }
 }

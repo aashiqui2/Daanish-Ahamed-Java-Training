@@ -1,0 +1,133 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CountZeros",
+            "request": "launch",
+            "mainClass": "CountZeros",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "ReverseWord",
+            "request": "launch",
+            "mainClass": "ReverseWord",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "Secondlargest",
+            "request": "launch",
+            "mainClass": "Secondlargest",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "CheckAnagram",
+            "request": "launch",
+            "mainClass": "CheckAnagram",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "Findduplicate",
+            "request": "launch",
+            "mainClass": "Findduplicate",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Array3rdmin",
+            "request": "launch",
+            "mainClass": "Array3rdmin",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "Arraydemo1",
+            "request": "launch",
+            "mainClass": "Arraydemo1",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "Arraymax",
+            "request": "launch",
+            "mainClass": "Arraymax",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "Arraymin",
+            "request": "launch",
+            "mainClass": "Arraymin",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "Arrayswap",
+            "request": "launch",
+            "mainClass": "Arrayswap",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "StringDemo1",
+            "request": "launch",
+            "mainClass": "StringDemo1",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "StringDemo2",
+            "request": "launch",
+            "mainClass": "StringDemo2",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "StringDemo2a",
+            "request": "launch",
+            "mainClass": "StringDemo2a",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "StringDemo3",
+            "request": "launch",
+            "mainClass": "StringDemo3",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "StringDemo4",
+            "request": "launch",
+            "mainClass": "StringDemo4",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "StringDemo5",
+            "request": "launch",
+            "mainClass": "StringDemo5",
+            "projectName": "Day 6_86e3fb43"
+        },
+        {
+            "type": "java",
+            "name": "StringDemo6",
+            "request": "launch",
+            "mainClass": "StringDemo6",
+            "projectName": "Day 6_86e3fb43"
+        }
+    ]
+}

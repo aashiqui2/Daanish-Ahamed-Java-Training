@@ -4,12 +4,13 @@ public class MethodDemo {
         add(a,b);
         add(a,b,c);//arguments
     }
-    static int add(int a,int b)
+    static void add(int a,int b)
     {
-        // System.out.println(a+b);
-        return a+b;
+        System.out.println(a+b);
+       
     }
-    static void add(int a,int b,int c)//parameters
+
+    static void add(int a,int b,int c)//parameters are local variable
     {
         System.out.println(a+b+c);
     }

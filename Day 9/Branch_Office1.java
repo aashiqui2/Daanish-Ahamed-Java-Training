@@ -1,16 +1,16 @@
-package tamilnadu.erode;
-import tamilnadu.chennai.Branch_Office;
-public class Branch_Office1 extends Branch_Office {
-    Branch_Office1()
+package tamilnadu.chennai;
+public class Branch_Office extends Office {
+    public Branch_Office()//package private
     {
-        System.out.println("welcome to branch_Office1");
+        System.out.println("welcome to Branch_Office");
     }
     public static void main(String[] args) {
-        Branch_Office1 bff1=new Branch_Office1();
-        bff1.wfh();
+        Branch_Office bff=new Branch_Office();
+        bff.celebrate_local_function();
+        bff.work();
     }
-    void hike()
+    void celebrate_local_function()
     {
-        System.out.println("got hike");
+        System.out.println("celebrating");
     }
 }

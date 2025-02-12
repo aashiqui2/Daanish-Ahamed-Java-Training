@@ -11,7 +11,7 @@ public class Demo {
     }
     void add(int c,int d)
     {
-        System.out.println(c+d);
+       System.out.println(c+d); 
     }
     static void sub(int e,int f)
     {
@@ -19,7 +19,7 @@ public class Demo {
     }
     static int mul(int q,int r)
     {
-        System.out.println("Multiuplication");
+        System.out.println("Multiplication");
         return q*r;
     }
     static float div(int r)

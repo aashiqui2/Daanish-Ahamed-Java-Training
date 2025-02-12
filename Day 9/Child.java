@@ -3,13 +3,16 @@ public class Child extends Parent {
         Child child=new Child();
         child.study();
         child.watching();
+
+        
     }
-     void study()
-    {
-        System.out.println("studying  java programming");
+    void study(){
+        System.out.println("studying java programming ");
     }
-    void job()
-    {
-        System.out.println("working as a sericeNow Developer");
+    void job(){
+        System.out.println("working as a servicenow");
+
     }
+   
+    
 }

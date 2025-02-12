@@ -1,32 +1,32 @@
 package tamilnadu.chennai;
 public class Office {
-    public Office(){
-        System.out.println("welcome to Office");
+    Office(){
+        System.out.println("welcome to office");
     }
     public static void main(String[] args) {
         Office off=new Office();
         off.work();
         off.do_planning();
-    }
 
-    void work()//package private
-    {
-        System.out.println("working in Office");
     }
-   public void wfh()
-    {
-        System.out.println("working in home");
+    void work(){
+        System.out.println("working in office");
     }
-    public void recruit()//package private
+    void wfh()
     {
-        System.out.println("recruitment");
+        System.out.println("Working in home");
     }
-    void get_travel_allowance()
+    void recruit()
     {
-        System.out.println("got money");
+        System.out.println("recuirement");
     }
-    private void do_planning()
-    {
-        System.out.println("planning....");
+    private void do_planning(){
+        System.out.println("Success");
     }
 }
+
+    
+
+
+
+    

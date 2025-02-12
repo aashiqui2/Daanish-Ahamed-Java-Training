@@ -1,0 +1,6 @@
+String;
+
+1.String is a class
+2.String are immutable in nature
+3.String can be created using two ways.
+(i)either by using double quotes or by creating object for the class.

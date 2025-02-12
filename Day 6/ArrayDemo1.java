@@ -1,22 +1,29 @@
-public class ArrayDemo1 {
+import java.util.Arrays;
+public class Arraydemo1 {
     public static void main(String[] args) {
-        int a[] = { 4, 8, 3, 6, 1 };
-
-        // System.out.println(Integer.MAX_VALUE);
-        int first = Integer.MAX_VALUE;
-        int second = Integer.MAX_VALUE;
+        int a[]={1,2,3,4,5,2,5,4};
+        int freq[]=new int[a.length];
         for(int i=0;i<a.length;i++)
         {
-            if(first>a[i])
+            int no=a[i];
+            int count=1;
+            for(int j=i+1;j<a.length;j++)
             {
-                second=first;
-                first=a[i];
+                if (no==a[j]){
+                    count++;
+                    freq[j]=-1;
+                }
             }
-            else if(second>a[i])
-            {
-                second=a[i];
+            if(freq[i]!=-1){
+                freq[i]=count;
             }
         }
-        System.out.println(second);
-    }
+        for(int i=0;i<a.length;i++){
+            if(freq[i]!=-1)
+            {
+              System.out.println(Arrays.toString(freq));
+
+            }
+        }
+    }
 }
