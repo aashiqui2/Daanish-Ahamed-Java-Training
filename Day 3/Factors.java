@@ -1,22 +1,29 @@
-import java.util.Scanner;
+// public class Factors {
+//     public static void main(String[] args) {
 
-public class Factors {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        // for (int i = 2; i <= n / 2; i++) {
-        // if(n%i==0)
-        // {
-        // System.out.print(i+" ");
-        // }
-        // }
+//         for(int i=0;i<=60;i++){
+//             if(60%i==0) {
+//             System.out.println(i);
+//            }
+//         }
+//     }
+// }
+    import java.util.Scanner;
 
-        int count=0;
-        for (int i = 2; i <= n / 2; i++) {
-            if (n % i == 0) {
-                count++;
+    public class Factors {
+    
+        public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            int n=sc.nextInt();
+        
+            for(int i=1;i<=n/2;i++)
+            {
+                if(n%i==0){
+                    System.out.println(i+"");
+                }
             }
+            sc.close();
         }
-        System.out.println(count);
     }
-}
+    
+

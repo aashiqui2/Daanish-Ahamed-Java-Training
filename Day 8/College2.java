@@ -8,7 +8,7 @@ public class College2 {
         // studying() is not public in College; cannot be accessed from outside package
         clg.recruit();
 
-        // clg.write();
+        // clg.write()
         // write() has protected access in College
 
         clg.semesterpaper();

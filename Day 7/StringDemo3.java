@@ -1,13 +1,12 @@
 public class StringDemo3 {
-   public static void main(String[] args) {
-      String s1="silence please! don't talk";
+    public static void main(String[] args) {
+        String s1="hello";
+        System.out.println(s1.contentEquals("hello"));
 
-      System.out.println(s1.startsWith("silence"));
-      System.out.println(s1.startsWith("please"));
+        String s2="abc";
+        System.out.println(s2.equals("abc"));
 
-      System.out.println(s1.startsWith("please",8));
-
-      System.out.println(s1.endsWith("t"));
-
-   } 
+        String s3="this is my 7 class learing String methods";
+        System.out.println(s3.contains("class"));
+    }
 }

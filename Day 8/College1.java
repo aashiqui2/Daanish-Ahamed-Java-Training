@@ -10,7 +10,6 @@ public class College1 {
         clg.studying();
         clg.recruit();
         clg.write();
-        clg.semesterpaper();
     }
     void display()
     {

@@ -1,0 +1,44 @@
+#String-immutable.string buffer.string builder
+when string objects needs to be modified  very often we should not use string objects
+
+
+#stringbuffer-java.lang-mutable class - synchronised class
+we cannot make the string literal as mutal by using the string buffer
+'StringBuffer sb ="abc";'
+
+
+#synchronized
+a thread safe mutable sequence of char Astring buffer is like a String but can be modified
+
+#string buffer is thread safe
+All methods are synchronized methods
+
+#synchronizedmoblie.....>speaker
+
+playsong()----speaker
+incomingcall()---->speaker
+-sequence action
+
+#string Builder-non synchronized class-java.lang
+-mutable class-JDK 1.5->
+a mutable sequence of a characters this class provides an api comptible with stringbuffer
+but with no gurantee of synchronized.
+
+String Builder is not threat safe.
+all methods are not synchronised
+
+#class
+-class is a physial entity.
+-class is a template or a blueprint.
+-class does not occupy space.
+-class is a collection of objects.
+-class is a cantainer.
+-class defines the variables and methods common to all objects of a kind.
+-when you creats an object from a class you are said to have created an instance of the class
+
+#object
+- object is a real-time entity.
+-object is combination os states and behaviour.
+- object is an instance of a class each object stores about what it currently looks like.
+- object is a memory reference of a class.
+- object should reside class.

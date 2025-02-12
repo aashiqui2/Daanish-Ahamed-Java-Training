@@ -1,27 +1,29 @@
-import java.util.Scanner;
-
 public class UserInput {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        //int
-        int a = sc.nextInt();
+        scanner sc = new scanner(system.in);
+        // integer
+        int a = sc.nextint();
+        System.out.println("Enter the integer");  
         System.out.println(a);
-
+        System.out.println(i);
         // float
         float f=sc.nextFloat();
+        System .out.println("Enter the Float");
+        System.out.println(a);
         System.out.println(f);
-
-        // String 
-        String s1=sc.next();//for one word
-        System.out.println(s1);
-
-        String s2=sc.nextLine();
-        System.out.println(s2);
-
-        // char 
-        char c=sc.next().charAt(0);
-        System.out.println(c);
-
-
+        
+        // char
+        char c=sc.nextchar();
+        System .out.println("Enter the char");
+        System.out.println(a);
+        System.out.println(f);
+        // string
+        sc.nextline();
+        string s = sc.nextline();
+        System .out.println("Enter the String");
+        System.out.println(a);
+        System.out.println(f);
+        
     }
+    
 }

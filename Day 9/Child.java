@@ -4,11 +4,11 @@ public class Child extends Parent {
         child.study();
         child.watching();
     }
-     void study()
+     public void study()
     {
         System.out.println("studying  java programming");
     }
-    void job()
+    public void job()
     {
         System.out.println("working as a sericeNow Developer");
     }
