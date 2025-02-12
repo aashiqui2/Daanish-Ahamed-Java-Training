@@ -6,11 +6,11 @@ public class SquareRoot {
         {
             if(n/div==div)
             {
-                
                 System.out.println(div);
                 break;
             }
             div++;
         }
     }
+    
 }

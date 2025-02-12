@@ -1,19 +1,21 @@
-public class Test  {
+
+import javax.lang.model.util.TypeKindVisitor14;
+
+public class Test {
     static String a="hello";
     public static void main(String[] args) {
         Test t=new Test();
         t.display();
         Test t1=new Test();
-        t1.display1();
     }
-    void display()
+    void display1();
     {
         a="boy";
     }
-    void display1()
+    void display();
     {
         System.out.println(a);
     }
+
+    
 }
-
-

@@ -1,4 +1,4 @@
-public interface TrafficRules {
+public interface Trafficrules {
     public static final int fine = 1200;
 
     public void go_slow();

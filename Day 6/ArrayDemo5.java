@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class ArrayDemo5 {
+public class ArrayDemo5{
     public static void main(String[] args) {
         int a[] = { 1, 2, 3, 4, 5 };
         int d = 2;
@@ -17,3 +17,5 @@ public class ArrayDemo5 {
         System.out.println(Arrays.toString(a));
     }
 }
+
+

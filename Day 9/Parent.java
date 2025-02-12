@@ -1,13 +1,13 @@
 public class Parent {
-    public void study() {
-        System.out.println("studying ");
+    
+    void study(){
+        System.out.println("studying");
     }
-
-    void job() {
+    void job(){
         System.out.println("working");
     }
-
-    void watching() {
+    void watching(){
         System.out.println("watching serial");
     }
+    
 }

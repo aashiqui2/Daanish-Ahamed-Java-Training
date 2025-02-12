@@ -1,0 +1,19 @@
+set of rules or contract
+
+ In Java, an interface is a reference type that defines a set
+ of abstract methods along with some optional constants
+  (static final fields). An interface can also include default 
+  methods, static methods, and nested types.
+
+
+#Inter face
+By default methods in the interface are abstract.
+
+By Default all methods in the interface are public.
+
+Do not reduce visibility of the methods.
+
+private access modifier is not alowed in interface
+
+ default final and static.
+variable(fields or global variable) in the interface are by0

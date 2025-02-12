@@ -1,36 +1,31 @@
 package tamilnadu.chennai;
-
-public class College {
-    static String Clgname="DACE";
+public class college {
+    static String clgname="DACE";
     int fees=20000;
     public static void main(String[] args) {
         display();
-        College clg=new College();
+        college clg=new college();
         clg.studying();
         clg.recruit();
-        clg.write();
-        clg.semesterpaper();
+
+
     }
     static void display()
     {
-        System.out.println("welcome to College "+Clgname);
+        System.out.println("Welcome to college"+clgname);
+
     }
     void studying()
     {
-        System.out.println("students are stydying");
+        System.out.println("studemts are studying");
     }
-    public void recruit()
+    void recruit()
     {
         System.out.println("company is recruiting");
     }
-    protected void write()
+    void write()
     {
-        System.out.println("exam are going on");
+        System.out.println("exams are going on");
+    }
     
-    }
-
-    private void semesterpaper()
-    {
-        System.out.println("this is top secret");
-    }
 }

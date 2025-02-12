@@ -1,24 +1,21 @@
 public class StringDemo2 {
     public static void main(String[] args) {
-        // String str="hello";
 
-        String str=new String("hello");
-        String str1=new String("hello");
-
-        // if(str==str1)
-        // {
-        //     System.out.println("same");
-        // }
-        // else{
-        //     System.out.println("not same");
-        // }
-
-        if(str.equals(str1))
+        String str="hello";
+        
+        String str=new String(original:"hello");
+        String str1=new String(original:"hello");
+        if(str==str1)
         {
-            System.out.println("same");
+             System.out.println(x:"same");
+        
+        } 
+        else
+        {
+            System.out.println(x:"not same");
+        
         }
-        else{
-            System.out.println("not same");
+        
         }
-    }
+    
 }

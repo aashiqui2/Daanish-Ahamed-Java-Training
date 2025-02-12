@@ -1,4 +1,4 @@
-public class Power {
+public class Power{
     public static void main(String[] args) {
         int base=2,power=0;
         int box=1;
@@ -7,8 +7,6 @@ public class Power {
             box=box*base;
             power--;
         }
-        System.out.println(box);
-        System.out.println(Math.pow(2, 4));
+        System.out.println("box");
     }
-    
 }
