@@ -1,16 +1,18 @@
-public class Hello {
+public class hello{
     public static void main(String[] args) {
-        System.out.println("hello world");
-        // single line comments
-        // hello world 
-
-        /* multi line comments */
-
-
-
-
-
-
+        int a=6;
+        int b=2;
+        System.out.println(a<<b);
+        
+            
+    
         
     }
+    
 }
+
+
+    
+
+
+

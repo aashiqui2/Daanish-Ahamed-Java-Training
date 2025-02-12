@@ -1,6 +1,7 @@
+
 import java.util.Arrays;
 
-public class ArrayDemo7 {
+public class Arraydemo7 {
     public static void main(String[] args) {
         int a[]={2,0,2,1,1,0};
         int c0=0,c1=0,c2=0;

@@ -1,0 +1,22 @@
+public class IsPrime{
+    public static void main(String[] args){
+        int n=11;
+        int div=2;
+        boolean isprime=true;
+
+        while(div)
+        isprime=false;
+    }
+}
+//if(isprime)
+//{
+system.out.println("prime");
+//}
+//else{
+//System.out.println("not a prime");
+//}
+
+//ternary operator(condition)?true:false
+{
+    system.out.println(isprime?"prime":"not a prime")
+}

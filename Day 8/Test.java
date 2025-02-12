@@ -1,10 +1,9 @@
-public class Test  {
-    static String a="hello";
+public class Test {
     public static void main(String[] args) {
         Test t=new Test();
         t.display();
         Test t1=new Test();
-        t1.display1();
+        t1.display();
     }
     void display()
     {
@@ -14,6 +13,6 @@ public class Test  {
     {
         System.out.println(a);
     }
-}
 
+    }
 
