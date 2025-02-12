@@ -1,0 +1,1 @@
+String s2 = new String("ABC");
