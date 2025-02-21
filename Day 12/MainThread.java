@@ -9,7 +9,7 @@ public class MainThread {
         ct.setName("practice thread");
         System.out.println(ct.getName());
         System.out.println(ct.getPriority());//5
-        // ct.setPriority(1);
+        // ct.setPriority(11);
         // Abc abc= new Abc();
         // System.out.println(abc.getState());
         // abc.start();
