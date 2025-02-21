@@ -15,7 +15,7 @@ public class User {
         //     }
         // };
 
-        // Calculator c = (int a,int b) -> {return a+b;};
+        // Calculator c = (int a,int b) -> {return a+b;};1
         Calculator c = (int a,int b) -> a+b;
 
 
