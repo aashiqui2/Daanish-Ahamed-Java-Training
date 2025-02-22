@@ -1,11 +1,13 @@
 #include <iostream>
 using namespace std;
 
-namespace name1{
+namespace name1
+{
     string name = "ram";
-    int age=20;
+    int age = 20;
 }
-namespace name2{
+namespace name2
+{
     string name = "ram";
 }
 
@@ -71,6 +73,35 @@ int main()
 
     // cout<<"The string  is: "<<s;
 
+    // string s("aashiqui");
+    // cout<<s<<endl;
+    // cout<<s.length();
+    // cout<<s.size()<<endl;
+    // cout<<s.max_size()<<endl;
+
+    // string str="aashiqui";
+    // string::iterator it;
+    // for(it=str.begin();it!=str.end();it++)
+    // {
+    //     cout<<*it<<endl;
+    // }
+
+    // std::string str1 = "bhai";
+    // string::iterator it1;
+    // for (auto it1 = str1.rbegin(); it1 != str1.rend(); it1++)
+    // {
+    //     cout<<*it1<<endl;
+    // }
+
+    // cout<<"hello world  \n";
+    // cout<<"hello world"<<"\n";
+    // cout<<"program";
+
    
+    int $a=1;
+    int _=25;
+    cout<<_;
+    int 
+
     return 0;
 }
