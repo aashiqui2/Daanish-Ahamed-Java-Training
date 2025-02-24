@@ -1,0 +1,2 @@
+1. write a program to find the number is Amstrong or not 153
+2. write a program to find the LCM of the given numbers.
